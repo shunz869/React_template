@@ -7,9 +7,7 @@ export default class CategoryOne extends Component{
       <React.Fragment>
         <h4>this is the first product list</h4>
         <div className="row">
-          <ProductList />
-          <ProductList />
-          <ProductList />
+          <ProductList items = {this.props.items}/>
         </div>
       </React.Fragment>
 
